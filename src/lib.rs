@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-#![doc = include_str!("../README.md")]
+//#![cfg_attr(feature = "doc", doc = include_str!("../README.md"))]
 
 pub mod builder;
 mod crypto;
